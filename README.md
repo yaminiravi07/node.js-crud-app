@@ -37,7 +37,7 @@ The application supports complete CRUD operations and demonstrates container orc
 ## Project Structure
 
 ```text
-node-crud-app/
+node.js-crud-app/
 │
 ├── backend/
 │   └── server.js
@@ -49,12 +49,14 @@ node-crud-app/
 │   ├── deployment.yaml
 │   ├── service.yaml
 │   └── postgres.yaml
+│   └── hpa.yaml
 │
 ├── tests/
 │   ├── loadtest.js
 │   └── locustfile.py
 │
 ├── Dockerfile
+├── docker-compose.yaml
 ├── package.json
 ├── package-lock.json
 ├── .gitignore
